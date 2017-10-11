@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
     <PackageId>Com.Moonlay.Models</PackageId>
-    <PackageVersion>1.0.0-alpha-10102017-019</PackageVersion>
+    <PackageVersion>1.0.0-alpha-10102017-020</PackageVersion>
     <Authors>Moonlay</Authors>
     <Description>Moonlay Models</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
