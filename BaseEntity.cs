@@ -4,10 +4,9 @@ using System.Text;
 
 namespace Com.Moonlay.Models
 {
-    public abstract class BaseEntity : IEntity, IActive
+    public abstract class BaseEntity : IEntity
     {
-        public object Id { get; set; }
-        public bool Active { get; set; }
+        public object Id { get; set; } 
     }
 
     public abstract class BaseEntity<TKey> : BaseEntity, IEntity<TKey>
