@@ -19,7 +19,7 @@ namespace Com.Moonlay.Models
         /// Recording time against deleted entity. In UTC format
         /// </summary>
         /// <returns></returns>
-        DateTime? _DeletedUtc { get; set; }
+        DateTime _DeletedUtc { get; set; }
 
         /// <summary>
         /// Recording user against deleted entity. 

@@ -31,7 +31,7 @@ namespace Com.Moonlay.Models
         /// Recording time against modified entity. In UTC format
         /// </summary>
         /// <returns></returns>
-        DateTime? _LastModifiedUtc { get; set; }
+        DateTime _LastModifiedUtc { get; set; }
 
         /// <summary>
         /// Recording user against modified entity.
