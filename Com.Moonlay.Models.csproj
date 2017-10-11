@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
     <PackageId>Com.Moonlay.Models</PackageId>
-    <PackageVersion>1.0.0-alpha-10102017-018</PackageVersion>
+    <PackageVersion>1.0.0-alpha-10102017-019</PackageVersion>
     <Authors>Moonlay</Authors>
     <Description>Moonlay Models</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Moonlay. All rights reserved.</Copyright>
-    <PackageTags>Models </PackageTags>
+    <PackageTags>Models</PackageTags>
   </PropertyGroup>
 
 </Project>
