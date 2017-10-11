@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Com.Moonlay.Models
 {
-    public abstract class StandardEntity : BaseEntity, IActive, IAuditEntity, ISoftEntity
+    public abstract class StandardEntity : BaseEntity<int>, IActive, IAuditEntity, ISoftEntity
     {  
         public bool Active { get; set; }
 
@@ -23,7 +23,7 @@ namespace Com.Moonlay.Models
     }
 
     public abstract class StandardEntity<TKey> : StandardEntity, IEntity<TKey>
-    {
-        public new TKey Id { get; set; }
+    { 
+        new public TKey Id { get; set; }
     }
 }
