@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.4-alpha-1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Moonlay models definition</Description>
+    <PackageProjectUrl>https://github.com/moonlay/com.moonlay.models</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/moonlay/com.moonlay.models</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>1.0.4-alpha-1
+- update flagForCreate, flagForUpdate, flagForDelete method
+
+1.0.4-alpha
+- fix 1.0.3-alpha implementation
+
+1.0.3-alpha
+- introduce IEntity interface
+- change IEntity definition from IEntity&lt;TKey&gt; to IEntity&lt;out TKey&gt;:IEntity
+
+1.0.2-alpha
+- target framework netstandard.2.0
+- remove IValidatableObject on StandardEntity
+
+1.0.1-alpha
+- change IEntity generics
+- remove underscores(_) from field name on interfaces
+- change BaseEntity definition
+- change StandardEntity definition
+- implements IValidatableObject on StandardEntity</PackageReleaseNotes>
+    <Authors>Moonlay</Authors>
+    <Company>Moonlay</Company>
+    <AssemblyVersion>1.0.4.1</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+  </PropertyGroup>
+
+</Project>

@@ -13,37 +13,37 @@ namespace Com.Moonlay.Models
         /// Recording time against created entity. In UTC format
         /// </summary>
         /// <returns></returns>
-        DateTime _CreatedUtc { get; set; }
+        DateTime CreatedUtc { get; set; }
 
         /// <summary>
         /// Recording user against created entity.
         /// </summary>
         /// <returns></returns>
-        string _CreatedBy { get; set; }
+        string CreatedBy { get; set; }
 
         /// <summary>
         /// Recording user agent against created entity.
         /// </summary>
         /// <returns></returns>
-        string _CreatedAgent { get; set; }
+        string CreatedAgent { get; set; }
 
         /// <summary>
         /// Recording time against modified entity. In UTC format
         /// </summary>
         /// <returns></returns>
-        DateTime _LastModifiedUtc { get; set; }
+        DateTime LastModifiedUtc { get; set; }
 
         /// <summary>
         /// Recording user against modified entity.
         /// </summary>
         /// <returns></returns>
-        string _LastModifiedBy { get; set; }
+        string LastModifiedBy { get; set; }
 
         /// <summary>
         /// Recording user agent against modified entity.
         /// </summary>
         /// <returns></returns>
-        string _LastModifiedAgent { get; set; }
+        string LastModifiedAgent { get; set; }
     }
 
 }

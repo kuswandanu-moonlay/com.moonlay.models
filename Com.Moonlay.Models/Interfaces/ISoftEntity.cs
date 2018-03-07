@@ -13,25 +13,25 @@ namespace Com.Moonlay.Models
         /// Flagging deleted entity.
         /// </summary>
         /// <returns>Boolean</returns>
-        bool _IsDeleted { get; set; }
+        bool IsDeleted { get; set; }
 
         /// <summary>
         /// Recording time against deleted entity. In UTC format
         /// </summary>
         /// <returns></returns>
-        DateTime _DeletedUtc { get; set; }
+        DateTime DeletedUtc { get; set; }
 
         /// <summary>
         /// Recording user against deleted entity. 
         /// </summary>
         /// <returns></returns>
-        string _DeletedBy { get; set; }
+        string DeletedBy { get; set; }
 
         /// <summary>
         /// Recording user agent against deleted entity. 
         /// </summary>
         /// <returns></returns>
-        string _DeletedAgent { get; set; }
+        string DeletedAgent { get; set; }
     }
 
 }
